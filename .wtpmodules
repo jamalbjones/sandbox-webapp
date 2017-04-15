@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId">
+  <wb-module deploy-name="sandbox-webapp">
+    <module-type module-type-id="jst.web">
+      <version>2.4</version>
+      <property name="context-root" value="sandbox-webapp"/>
+    </module-type>
+    <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+    <dependent-module archiveName="javax.servlet-api-3.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+  </wb-module>
+</project-modules>
